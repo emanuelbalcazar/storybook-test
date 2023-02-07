@@ -11,7 +11,7 @@ export default {
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
     backgroundColor: { control: 'color' },
-    onClick: { action: true }
+    data: { action: true }
   },
 };
 
@@ -24,7 +24,7 @@ Primary.args = {
   primary: true,
   label: 'Siguiente',
   backgroundColor: 'red',
-  onClick: { action: true }
+  data: { action: true }
 };
 
 /* Verify button args */
