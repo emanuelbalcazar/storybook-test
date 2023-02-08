@@ -1,9 +1,13 @@
 import React from "react";
 import { Button } from "./Button";
+import PropTypes from 'prop-types';
 import "./Form.css";
 
+/**
+ * Form example for Claro Com
+ */
 export const Form = ({
-  placeholder = "Ingresa tu email",
+  placeholder = "",
   ...props
 }) => {
   const [details, setDetails] = React.useState(false);
@@ -43,4 +47,15 @@ export const Form = ({
       )}
     </div>
   );
+};
+
+Form.propTypes = {
+  /**
+   * Text input
+   */
+  placeholder: PropTypes.string
+};
+
+Button.defaultProps = {
+  placeholder: ''
 };
