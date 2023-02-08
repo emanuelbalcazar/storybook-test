@@ -5,3 +5,25 @@
     gap: 1rem;
     width: 30%;
 }
+
+input {
+    border: 2px solid rgb(76, 0, 255);
+    border-radius: 4px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.button {
+    height: 40px;
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    border: 0;
+    border-radius: 3em;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+    color: white;
+    background-color: rgb(202, 62, 52);
+}

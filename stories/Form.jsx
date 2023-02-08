@@ -16,7 +16,7 @@ export const Form = ({
     <div className="form-wrapper">
       <input
         autoComplete="off"
-        placeholder="Enter your email address"
+        placeholder="Ingresa tu email"
         className={"storybook-input"}
         name="email"
         aria-label="email"
@@ -26,14 +26,14 @@ export const Form = ({
       />
       <input
         autoComplete="off"
-        placeholder="Enter your password"
+        placeholder="Ingresa tu contraseña"
         className={"storybook-input"}
         name="password"
         id="password"
         data-testid="password"
         {...props}
       />
-      <Button label="Submit" onClick={() => onClick()} />
+      <Button label="Siguiente" className="button" onClick={() => onClick()} />
       {details === true ? (
         <p>
           Bienvenido al storybook
