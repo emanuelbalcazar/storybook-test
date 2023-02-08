@@ -3,7 +3,7 @@ import { Button } from "./Button";
 import "./Form.css";
 
 export const Form = ({
-  placeholder = "Enter your email",
+  placeholder = "Ingresa tu email",
   ...props
 }) => {
   const [details, setDetails] = React.useState(false);
